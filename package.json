@@ -25,9 +25,7 @@
     "dist",
     "lib",
     "es",
-    "metadata.json",
-    "package.json",
-    "README.md"
+    "package.json"
   ],
   "dependencies": {
     "@auth0/auth0-react": "^1.6.0",
