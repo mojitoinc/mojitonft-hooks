@@ -1,5 +1,5 @@
 {
-  "name": "@mojito-mixers/hooks",
+  "name": "mojitonft-hooks",
   "version": "1.0.0",
   "description": "react hooks library",
   "keywords": [
@@ -8,20 +8,16 @@
     "mojito mixers",
     "mojito hooks",
     "mixers hooks",
-    "react hooks"
+    "react hooks",
+    "hooks"
   ],
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/mojito-mixers-hooks.js",
+  "unpkg": "dist/mojitonft-hooks.js",
   "sideEffects": false,
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com/",
-    "access": "restricted",
-    "scope": "@mojito-mixers"
-  },
-  "repository": "https://github.com/mojitoinc/mixers-hooks",
-  "homepage": "https://github.com/mojitoinc/mixers-hooks",
+  "repository": "https://github.com/mojitoinc/mojitonft-hooks",
+  "homepage": "https://github.com/mojitoinc/mojitonft-hooks",
   "scripts": {
     "build": "gulp && webpack-cli"
   },
@@ -34,7 +30,6 @@
     "README.md"
   ],
   "dependencies": {
-    "@babel/runtime": "^7.17.9",
     "@auth0/auth0-react": "^1.6.0",
     "@sentry/react": "^6.15.0",
     "graphql-request": "^4.0.0",
@@ -49,6 +44,7 @@
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
+    "@babel/runtime": "^7.17.9",
     "@babel/core": "^7.17.9",
     "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
