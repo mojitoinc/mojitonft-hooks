@@ -1,6 +1,10 @@
 # mojitonft-hooks
 
-## Add to dependencies:
+## Setup:
+
+⚠ You must have Auth0, with CLIENT_ID provided by Sothebys, to use this library ⚠
+
+#### Add to dependencies
 
 ```json
    "mojitonft-hooks": "https://github.com/mojitoinc/mojitonft-hooks"
