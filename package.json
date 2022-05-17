@@ -1,0 +1,68 @@
+{
+  "name": "@mojito-mixers/hooks",
+  "version": "1.0.0",
+  "description": "react hooks library",
+  "keywords": [
+    "mojito",
+    "mixers",
+    "mojito mixers",
+    "mojito hooks",
+    "mixers hooks",
+    "react hooks"
+  ],
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./lib/index.d.ts",
+  "unpkg": "dist/mojito-mixers-hooks.js",
+  "sideEffects": false,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/",
+    "access": "restricted",
+    "scope": "@mojito-mixers"
+  },
+  "repository": "https://github.com/mojitoinc/mixers-hooks",
+  "homepage": "https://github.com/mojitoinc/mixers-hooks",
+  "scripts": {
+    "build": "gulp && webpack-cli"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "es",
+    "metadata.json",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.17.9",
+    "@auth0/auth0-react": "^1.6.0",
+    "@sentry/react": "^6.15.0",
+    "graphql-request": "^4.0.0",
+    "graphql-subscriptions-client": "^0.16.2",
+    "react-query": "^3.34.12",
+    "graphql": "^16.4.0",
+    "moment": "^2.29.3",
+    "ahooks": "^3.3.10",
+    "axios": "^0.21.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@types/enzyme": "^3.10.5",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "enzyme-adapter-react-16": "^1.15.4",
+    "gulp-babel": "7",
+    "jest-websocket-mock": "^2.1.0",
+    "mock-socket": "^9.0.3",
+    "mockjs": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "license": "MIT"
+}
