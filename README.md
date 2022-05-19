@@ -2,7 +2,7 @@
 
 ## Setup:
 
-⚠ You must have Auth0, with CLIENT_ID provided by Sothebys, to use this library ⚠
+⚠ You must have Auth0, with CLIENT_ID provided by Mojito, to use this library ⚠
 
 #### Add to dependencies
 
